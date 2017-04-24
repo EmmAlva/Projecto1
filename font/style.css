@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z7kqo');
+  src:  url('fonts/icomoon.eot?z7kqo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z7kqo') format('truetype'),
+    url('fonts/icomoon.woff?z7kqo') format('woff'),
+    url('fonts/icomoon.svg?z7kqo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart2:before {
+  content: "\e900";
+}
+.icon-settings:before {
+  content: "\e901";
+}
+.icon-vynil:before {
+  content: "\e902";
+}
+.icon-world:before {
+  content: "\e903";
+}
+.icon-document-edit:before {
+  content: "\e904";
+}
+.icon-box-filled:before {
+  content: "\e905";
+}
+.icon-receipt:before {
+  content: "\e8b0";
+}
+.icon-film:before {
+  content: "\e913";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-equalizer:before {
+  content: "\e992";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
+.icon-stats-bars2:before {
+  content: "\e99d";
+}
+.icon-list:before {
+  content: "\e9ba";
+}
+.icon-tree:before {
+  content: "\e9bc";
+}
+.icon-cloud-upload:before {
+  content: "\e9c3";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-mail3:before {
+  content: "\ea85";
+}
+
