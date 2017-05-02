@@ -59,8 +59,8 @@ a{
 /*CONTENIDO*/
 #content{
 	margin-top: 52px;
-	height: 655px;
-	background: blue;
+	height: 800px;
+	/*background: blue;*/
 	position: relative;
 }
 .container{
@@ -98,10 +98,9 @@ h2{
 	padding-top: 20px;
 	font-size: 16px;
 }
-/*CENTRO*/
+/*CENTRO UP*/
 #center{
 	width: 750px;
-	background: #AD10EE;
 	padding: 30px;
 }
 .up{
@@ -119,7 +118,34 @@ h2{
 }
 .box1 > .icon{
 	font-size: 25px;
+}
+/*CENTRO DOWN*/
+.box2{
+	display: inline-block;
+	padding: 15px;
+}
+.bloque{
+	display: block;
+}
+.cuadro{
+	background: #8A8989;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+.photo{
+	width: 250px;
+	height: 150px;
+}
+.box2 > .icon{
+	font-size: 20px;
+	color: #AFADAD;
 
+}
+.down{
+	position: absolute;
+	top: 50%;
+	left: 22%;
 }
 
 
