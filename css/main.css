@@ -40,6 +40,9 @@ header{
 .box > span{
 	line-height: 1.5;
 }
+.box:hover{
+	background: #fff;
+}
 .icon{
 	font-size: 25px;
 }
@@ -56,11 +59,14 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
+.right:hover{
+	background: #0B90B6;
+}
 /*CONTENIDO*/
 #content{
 	margin-top: 52px;
 	height: 800px;
-	/*background: blue;*/
+	background: #E8EFEF;
 	position: relative;
 }
 .container{
@@ -71,6 +77,8 @@ a{
 	padding: 20px;
 	width: 250px;
 	height: inherit;
+	position: fixed;
+	z-index: 5;
 }
 .portada{
 	background: #11B611;
@@ -95,9 +103,14 @@ h2{
 .opciones > span{
 	display: block;
 	color: #fff;
-	padding-top: 20px;
+	padding: 20px 0;
 	font-size: 16px;
+
 }
+.opciones > span:hover{
+	background: #0DA3D4;
+}
+
 /*CENTRO UP*/
 #center{
 	width: 750px;
@@ -115,10 +128,20 @@ h2{
 	margin: 20px 20px; 
 	padding: 10px;
 	width: 50px;
+	color: grey;
 }
 .box1 > .icon{
-	font-size: 25px;
+	font-size: 35px;
 }
+.box1:hover{
+	color: black;
+	background: grey;
+	border-bottom:none;
+
+
+}
+
+
 /*CENTRO DOWN*/
 .box2{
 	display: inline-block;
@@ -144,20 +167,61 @@ h2{
 }
 .down{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 22%;
 }
 
 
 #right{
-	background: #FE1C1C;
+	height: inherit;
+	padding-top: 30px;
+	position: absolute;
+	right: 0;
+	background: #fff;
+
+
 }
+.aside-right{
+	/*width: 300px;*/
+}
+.aside-right div.title-rig{
+	color: white;
+	background: red;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 17px;
+	border-bottom: none;
+	
+}
+.aside-right div{
+	border-bottom: 1px solid grey;
+	overflow: auto;
+	margin:0 20px;
+	padding: 10px;
+}
+
+.aside-right div span{
+	float: left;
+}
+.next{
+	font-size: 12px;
+	margin-left: 15px;
+}
+.aside-down{
+	margin-top: 50px;
+	width: 320px;
+}
+.icon-world,.icon-vynil{
+	margin-top: 5px;
+	font-size: 30px;
+}
+
+
+
+/*FOOTER*/
 footer{
 	background: #F5E72F;
 	padding: 15px 0;
 	padding-left: 40%;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-
+	position: relative;
 }
